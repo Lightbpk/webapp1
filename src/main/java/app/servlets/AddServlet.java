@@ -22,7 +22,7 @@ public class AddServlet extends HttpServlet {
         String password = req.getParameter("pass");
         User user = new User(name,password);
         Model model = Model.getInstance();
-        model.add(user);
+        //model.add(user);
 
         req.setAttribute("userName",name);
         doGet(req, resp);
