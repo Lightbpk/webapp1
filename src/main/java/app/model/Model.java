@@ -1,7 +1,6 @@
 package app.model;
 
 import app.entities.Animal;
-import app.entities.User;
 
 import java.util.ArrayList;
 import java.util.List;
