@@ -21,11 +21,11 @@
         </div>
         <div>
             <%
-                List<String> names = (List<String>) request.getAttribute("userNames");
+                List<String> respAll = (List<String>) request.getAttribute("allInfo");
 
-                if (names != null && !names.isEmpty()) {
+                if (respAll != null && !respAll.isEmpty()) {
                     out.println("<ul class=\"w3-ul\">");
-                    for (String s : names) {
+                    for (String s : respAll) {
                         out.println("<li class=\"w3-hover-sand\">" + s + "</li>");
                     }
                     out.println("</ul>");
